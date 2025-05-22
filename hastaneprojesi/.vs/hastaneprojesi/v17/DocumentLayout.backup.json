@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER\\hastaneprojesi\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|c:\\users\\pc\\desktop\\c#b\u00FCt\u00FCn projeler - kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|solutionrelative:hastaneprojesi\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|c:\\users\\pc\\desktop\\c#b\u00FCt\u00FCn projeler - kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|solutionrelative:hastaneprojesi\\frmhastadetay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|c:\\users\\pc\\desktop\\c#b\u00FCt\u00FCn projeler - kopya\\hastaneprojesi\\hastaneprojesi\\frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BD2BE1C8-F9E0-49CB-8EF8-1A9B44B731C2}|hastaneprojesi\\hastaneprojesi.csproj|solutionrelative:hastaneprojesi\\frmbrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -28,8 +41,41 @@
               "Name": "ST:0:0:{80c411e8-fd5e-4b16-914b-0d9d84172cc1}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmhastadetay.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs",
+              "RelativeDocumentMoniker": "hastaneprojesi\\frmhastadetay.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs",
+              "RelativeToolTip": "hastaneprojesi\\frmhastadetay.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:02:45.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmhastadetay.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs",
+              "RelativeDocumentMoniker": "hastaneprojesi\\frmhastadetay.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmhastadetay.cs [Design]",
+              "RelativeToolTip": "hastaneprojesi\\frmhastadetay.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:02:43.073Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmbrans.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmbrans.cs",
+              "RelativeDocumentMoniker": "hastaneprojesi\\frmbrans.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\C#B\u00DCT\u00DCN PROJELER - Kopya\\hastaneprojesi\\hastaneprojesi\\frmbrans.cs [Design]",
+              "RelativeToolTip": "hastaneprojesi\\frmbrans.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T07:02:34.33Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
