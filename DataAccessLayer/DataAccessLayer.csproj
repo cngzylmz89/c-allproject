@@ -42,7 +42,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Baglanti.cs" />
+    <Compile Include="DALPersonel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EntityLayer\EntityLayer.csproj">
+      <Project>{1e509102-b6dc-4656-88e4-e60764cda485}</Project>
+      <Name>EntityLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

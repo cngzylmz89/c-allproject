@@ -9,6 +9,7 @@ namespace DataAccessLayer
 {
    public class Baglanti
     {
+        // public static ile nesne oluşturmadan sınıf üzerinden işlem yapılabilir.
         public static SqlConnection bgl = new SqlConnection(@"Data Source=.;Initial Catalog=DbPersonel;Integrated Security=True;Trust Server Certificate=True");
     }
 }
