@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3AE805DA-B0ED-491D-A910-85893D8311E1}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\dataaccesslayer\\baglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\nkatmanlimimari\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E509102-B6DC-4656-88E4-E60764CDA485}|..\\EntityLayer\\EntityLayer.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\entitylayer\\entityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -16,7 +23,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,20 +47,44 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:31:15.986Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Baglanti.cs",
+              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Baglanti.cs",
+              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Baglanti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:17:07.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EntityClass.cs",
               "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
               "RelativeDocumentMoniker": "..\\EntityLayer\\EntityClass.cs",
               "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
               "RelativeToolTip": "..\\EntityLayer\\EntityClass.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T18:05:50.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T18:05:50.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "EntityClass.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
