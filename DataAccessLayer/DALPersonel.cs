@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-using EntityLayer;
-using System.Data;
+using EntityLayer;//EntityLayer sınıfını kütüphane olarak ekliyoruz
+using System.Data;//18. satırda geçen ConnectionState sınıfını görebilmek için data kütüphanesini ekliyoruz
 
 namespace DataAccessLayer
 {
-    class DALPersonel
+   public class DALPersonel
     {
         public static List<EntityPersonel> Personellistesi ()//EntityPersonel sınıfı kullanmak üzere listele metodu oluşturduk ve ismini Personellistesi koyduk
         {
             List<EntityPersonel> degerler = new List<EntityPersonel>();//değer döndüren bir metot olduğu için oluşturduğumuz metot sınıfı ve sınıftan bir DEGERLER adında bir nesne türetiyoruz
-            SqlCommand komut = new SqlCommand("select * from TBLBİLGİ", Baglanti.bgl);//sqldeki tabloyla bağlantıyı kuruyoruz ve komutumuzu oluşturuyoruz.
+            SqlCommand komut = new SqlCommand("select * from TBLBILGI", Baglanti.bgl);//sqldeki tabloyla bağlantıyı kuruyoruz ve komutumuzu oluşturuyoruz.
             if (komut.Connection.State != ConnectionState.Open)//komut bağlantı durumu açık değilse
             {
                 komut.Connection.Open();//komutun bağlantısını aç
