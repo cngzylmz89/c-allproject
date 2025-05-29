@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityLayer
 {
-    class EntityClass
+   public class EntityClass
     {
         private int id;
         private string ad;
