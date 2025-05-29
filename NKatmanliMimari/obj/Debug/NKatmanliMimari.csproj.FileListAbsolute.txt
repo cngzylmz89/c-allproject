@@ -15,3 +15,5 @@ C:\Users\PC\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanliMimari.cspro
 C:\Users\PC\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanl.E8C0824F.Up2Date
 C:\Users\PC\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanliMimari.exe
 C:\Users\PC\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanliMimari.pdb
+C:\Users\CENGİZ\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanliMimari.exe
+C:\Users\CENGİZ\Desktop\c#allproject\NKatmanliMimari\obj\Debug\NKatmanliMimari.pdb
