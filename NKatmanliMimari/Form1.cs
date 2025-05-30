@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using EntityLayer;
+using DataAccessLayer;
+using LogicLayer;
 
 namespace NKatmanliMimari
 {
@@ -15,6 +18,24 @@ namespace NKatmanliMimari
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void btnlistele_Click(object sender, EventArgs e)
+        {
+            List<EntityClass> Personellist=LogicPersonel.LLPersonellistesi();
+            dataGridView1.DataSource = Personellist;
+        }
+
+        private void btninsert_Click(object sender, EventArgs e)
+        {
+            EntityClass ent = new EntityClass();
+            ent.Ad = txtad.Text;
+            ent.Soyad = txtsoyad.Text;
+            ent.Maas =short.Parse(txtmaas.Text) ;
+            ent.Gorev = txtgorev.Text;
+            ent.Sehir = txtsehir.Text;
+
+            LogicPersonel.LLPersonelEkle(ent);
         }
     }
 }

@@ -1,28 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\c#allproject\\NKatmanliMimari\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\nkatmanlimimari\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE805DA-B0ED-491D-A910-85893D8311E1}|..\\DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|c:\\users\\pc\\desktop\\c#allproject\\nkatmanlimimari\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|c:\\users\\pc\\desktop\\c#allproject\\nkatmanlimimari\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD701FC3-C1B0-49D3-B46F-92DFA54527BE}|NKatmanliMimari.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF448EDB-FE3D-411E-9293-0C20724A5A7E}|..\\LogicLayer\\LogicLayer.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\logiclayer\\logicpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AF448EDB-FE3D-411E-9293-0C20724A5A7E}|..\\LogicLayer\\LogicLayer.csproj|c:\\users\\pc\\desktop\\c#allproject\\logiclayer\\logicpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3AE805DA-B0ED-491D-A910-85893D8311E1}|..\\DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\dataaccesslayer\\dalpersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3AE805DA-B0ED-491D-A910-85893D8311E1}|..\\DataAccessLayer\\DataAccessLayer.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E509102-B6DC-4656-88E4-E60764CDA485}|..\\EntityLayer\\EntityLayer.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\entitylayer\\entityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E509102-B6DC-4656-88E4-E60764CDA485}|..\\EntityLayer\\EntityLayer.csproj|c:\\users\\pc\\desktop\\c#allproject\\entitylayer\\entityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E509102-B6DC-4656-88E4-E60764CDA485}|..\\EntityLayer\\EntityLayer.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -56,50 +62,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LogicPersonel.cs",
-              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
-              "RelativeDocumentMoniker": "..\\LogicLayer\\LogicPersonel.cs",
-              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
-              "RelativeToolTip": "..\\LogicLayer\\LogicPersonel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:38:41.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "EntityClass.cs",
-              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
               "RelativeDocumentMoniker": "..\\EntityLayer\\EntityClass.cs",
-              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
               "RelativeToolTip": "..\\EntityLayer\\EntityClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:26:21.366Z",
+              "WhenOpened": "2025-05-30T06:37:30.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DALPersonel.cs",
-              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "RelativeDocumentMoniker": "..\\DataAccessLayer\\DALPersonel.cs",
-              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "RelativeToolTip": "..\\DataAccessLayer\\DALPersonel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCIAAAAXAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:20:31.515Z",
+              "WhenOpened": "2025-05-30T06:34:57.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LogicPersonel.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "RelativeDocumentMoniker": "..\\LogicLayer\\LogicPersonel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "RelativeToolTip": "..\\LogicLayer\\LogicPersonel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T06:27:00.221Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LogicPersonel.cs",
+              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\LogicLayer\\LogicPersonel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:38:41.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EntityClass.cs",
+              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\EntityLayer\\EntityClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:26:21.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DALPersonel.cs",
+              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
+              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\CENG\u0130Z\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:20:31.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\NKatmanliMimari\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T19:20:28.095Z",
@@ -107,35 +148,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "DALPersonel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\DALPersonel.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\DALPersonel.cs*",
+              "RelativeToolTip": "..\\DataAccessLayer\\DALPersonel.cs*",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwCMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T06:41:57.742Z"
+              "WhenOpened": "2025-05-27T06:41:57.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Baglanti.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
+              "RelativeDocumentMoniker": "..\\DataAccessLayer\\Baglanti.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\DataAccessLayer\\Baglanti.cs",
+              "RelativeToolTip": "..\\DataAccessLayer\\Baglanti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T08:06:18.449Z"
+              "WhenOpened": "2025-05-23T08:06:18.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "EntityDepartman.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs",
+              "RelativeDocumentMoniker": "..\\EntityLayer\\EntityDepartman.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\PC\\Desktop\\c#allproject\\EntityLayer\\EntityDepartman.cs",
+              "RelativeToolTip": "..\\EntityLayer\\EntityDepartman.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-23T07:37:36.067Z"
