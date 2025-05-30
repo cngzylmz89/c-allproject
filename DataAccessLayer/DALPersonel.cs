@@ -38,7 +38,7 @@ namespace DataAccessLayer
             
         }
 
-        public static int Personelekle(EntityClass p)
+        public static int Personelekle(EntityClass p)//farklı olarak bu sefer int değişkeninden  metot türettik ve Parametre olarak EntityClass sınıfından p adında bir nesne türettik
         {
             SqlCommand komut2 = new SqlCommand("insert into TBLBILGI (AD, SOYAD, SEHIR, GOREV, MAAS) VALUES (@P1, @P2,@P2,@P4, @P5 )", Baglanti.bgl);
             if (komut2.Connection.State != ConnectionState.Open)
@@ -46,7 +46,7 @@ namespace DataAccessLayer
                 komut2.Connection.Open();
             }
 
-            komut2.Parameters.AddWithValue("@P1", p.Ad);
+            komut2.Parameters.AddWithValue("@P1", p.Ad);//p ile EntityClass taki değişkenlere ulaştık
             komut2.Parameters.AddWithValue("@P2", p.Soyad);
             komut2.Parameters.AddWithValue("@P3", p.Sehir);
             komut2.Parameters.AddWithValue("@P4", p.Gorev);

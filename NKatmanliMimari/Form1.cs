@@ -28,14 +28,14 @@ namespace NKatmanliMimari
 
         private void btninsert_Click(object sender, EventArgs e)
         {
-            EntityClass ent = new EntityClass();
+            EntityClass ent = new EntityClass();//EntityClass tan ent adında bir nesne türetiyoruz. ent ile değişkenlere ulaşıp propertylere atıyoruz.
             ent.Ad = txtad.Text;
             ent.Soyad = txtsoyad.Text;
             ent.Maas =short.Parse(txtmaas.Text) ;
             ent.Gorev = txtgorev.Text;
             ent.Sehir = txtsehir.Text;
 
-            LogicPersonel.LLPersonelEkle(ent);
+            LogicPersonel.LLPersonelEkle(ent);//LogicPersonel sınıfındaki LLPersonelEkle metodunu ent ile çalıştırıyoruz
         }
     }
 }
