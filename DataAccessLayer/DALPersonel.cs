@@ -31,11 +31,11 @@ namespace DataAccessLayer
                 ent.Sehir = dr["SEHIR"].ToString();
                 ent.Gorev = dr["GOREV"].ToString();
                 ent.Maas = short.Parse(dr["MAAS"].ToString());
-                degerler.Add(ent);   
+                degerler.Add(ent);
             }
             dr.Close();
             return degerler;
-            
+
         }
 
         public static int Personelekle(EntityClass p)//farklı olarak bu sefer int değişkeninden  metot türettik ve Parametre olarak EntityClass sınıfından p adında bir nesne türettik
@@ -54,6 +54,32 @@ namespace DataAccessLayer
 
             return komut2.ExecuteNonQuery();
 
+        }
+
+        public static bool PersonelSil(int p)//bool türünde metot tanımla ve parametresini int türünde ver
+        {
+            SqlCommand komut4 = new SqlCommand("delete from TBLBILGI where ID=@P1", Baglanti.bgl);//sqlkomutunu yaz
+            komut4.Parameters.AddWithValue("@P1", p);
+            return komut4.ExecuteNonQuery() > 0;//sonucu döndürürken bool olduğu için şart 0 dan büyük olduğunda yani 1 olduğunda yani true olduğunda döndür diyoruz.
+        }
+            
+        public static bool PersonelGuncelle(EntityClass p)//bool türünde metot oluştur parametresini EntityClass sınıfından p nesnesine ata
+        {
+            SqlCommand komut5 = new SqlCommand("update TBLBILGI set AD=@P1, SOYAD=@P2, SEHIR=@P3, GOREV=@P4, MAAS=@P5 where ID=@P0", Baglanti.bgl);
+            
+            komut5.Parameters.AddWithValue("@P1", p.Ad);
+            komut5.Parameters.AddWithValue("@P2", p.Soyad);
+            komut5.Parameters.AddWithValue("@P3", p.Sehir);
+            komut5.Parameters.AddWithValue("@P4", p.Gorev);
+            komut5.Parameters.AddWithValue("@P5", p.Maas);
+            komut5.Parameters.AddWithValue("@P0", p.Id);
+            if (komut5.Connection.State != ConnectionState.Open)
+            {
+                komut5.Connection.Open();
+               
+            }
+            return komut5.ExecuteNonQuery() > 0;
+            
         }
 
     }

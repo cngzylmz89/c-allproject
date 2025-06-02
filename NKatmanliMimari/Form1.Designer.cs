@@ -44,6 +44,8 @@
             this.btninsert = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnsil = new System.Windows.Forms.Button();
+            this.btnguncelle = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -166,7 +168,7 @@
             // btninsert
             // 
             this.btninsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btninsert.Location = new System.Drawing.Point(688, 142);
+            this.btninsert.Location = new System.Drawing.Point(688, 131);
             this.btninsert.Name = "btninsert";
             this.btninsert.Size = new System.Drawing.Size(100, 42);
             this.btninsert.TabIndex = 13;
@@ -194,11 +196,35 @@
             this.dataGridView1.Size = new System.Drawing.Size(769, 197);
             this.dataGridView1.TabIndex = 0;
             // 
+            // btnsil
+            // 
+            this.btnsil.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnsil.Location = new System.Drawing.Point(688, 179);
+            this.btnsil.Name = "btnsil";
+            this.btnsil.Size = new System.Drawing.Size(100, 42);
+            this.btnsil.TabIndex = 15;
+            this.btnsil.Text = "sil";
+            this.btnsil.UseVisualStyleBackColor = true;
+            this.btnsil.Click += new System.EventHandler(this.btnsil_Click);
+            // 
+            // btnguncelle
+            // 
+            this.btnguncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnguncelle.Location = new System.Drawing.Point(516, 174);
+            this.btnguncelle.Name = "btnguncelle";
+            this.btnguncelle.Size = new System.Drawing.Size(100, 42);
+            this.btnguncelle.TabIndex = 16;
+            this.btnguncelle.Text = "güncelle";
+            this.btnguncelle.UseVisualStyleBackColor = true;
+            this.btnguncelle.Click += new System.EventHandler(this.btnguncelle_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnguncelle);
+            this.Controls.Add(this.btnsil);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btninsert);
             this.Controls.Add(this.btnlistele);
@@ -241,6 +267,8 @@
         private System.Windows.Forms.Button btninsert;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnsil;
+        private System.Windows.Forms.Button btnguncelle;
     }
 }
 

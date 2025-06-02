@@ -37,5 +37,26 @@ namespace NKatmanliMimari
 
             LogicPersonel.LLPersonelEkle(ent);//LogicPersonel sınıfındaki LLPersonelEkle metodunu ent ile çalıştırıyoruz
         }
+
+        private void btnsil_Click(object sender, EventArgs e)
+        {
+            EntityClass ent = new EntityClass();
+            ent.Id = int.Parse(mskperid.Text);
+            LogicPersonel.LLPersonelsil(ent.Id);
+        }
+
+        private void btnguncelle_Click(object sender, EventArgs e)
+        {
+            EntityClass ent = new EntityClass();
+            ent.Id = int.Parse(mskperid.Text);
+            ent.Ad = txtad.Text;
+            ent.Soyad = txtsoyad.Text;
+            ent.Maas = short.Parse(txtmaas.Text);
+            ent.Sehir = txtsehir.Text;
+            ent.Gorev = txtgorev.Text;
+
+            LogicPersonel.LLPersonelguncelle(ent);
+
+        }
     }
 }
