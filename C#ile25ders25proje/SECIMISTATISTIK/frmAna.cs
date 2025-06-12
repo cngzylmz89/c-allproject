@@ -46,7 +46,7 @@ namespace SECIMISTATISTIK
                 komutekle.Connection.Open();
                 komutekle.ExecuteNonQuery();
             }
-            MessageBox.Show("Bilgi", "Kayıt eklendi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Kayıt eklendi","Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             bgl.Close();
             
 
@@ -58,6 +58,7 @@ namespace SECIMISTATISTIK
         {
             frmGrafikler frm = new frmGrafikler();
             frm.Show();
+            this.Hide();
         }
     }
 }

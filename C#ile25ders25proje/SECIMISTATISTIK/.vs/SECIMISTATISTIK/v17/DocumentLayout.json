@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|c:\\users\\pc\\desktop\\c#allproject\\c#ile25ders25proje\\secimistatistik\\frmgrafikler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmgrafikler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|c:\\users\\pc\\desktop\\c#allproject\\c#ile25ders25proje\\secimistatistik\\frmgrafikler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmgrafikler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmgrafikler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|c:\\users\\pc\\desktop\\c#allproject\\c#ile25ders25proje\\secimistatistik\\frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|c:\\users\\pc\\desktop\\c#allproject\\c#ile25ders25proje\\secimistatistik\\frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31D654E9-2A27-445B-B819-1DC85CE26C1F}|SECIMISTATISTIK.csproj|solutionrelative:frmana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +46,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmGrafikler.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmGrafikler.cs",
               "RelativeDocumentMoniker": "frmGrafikler.cs",
@@ -59,32 +59,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "frmGrafikler.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmGrafikler.cs",
               "RelativeDocumentMoniker": "frmGrafikler.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmGrafikler.cs [Design]",
               "RelativeToolTip": "frmGrafikler.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T09:28:12.587Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-12T09:28:12.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "frmAna.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmAna.cs",
               "RelativeDocumentMoniker": "frmAna.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmAna.cs",
               "RelativeToolTip": "frmAna.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAawCIAAACEAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-12T09:16:34.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "frmAna.cs [Design]",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\c#allproject\\C#ile25ders25proje\\SECIMISTATISTIK\\frmAna.cs",
               "RelativeDocumentMoniker": "frmAna.cs",
