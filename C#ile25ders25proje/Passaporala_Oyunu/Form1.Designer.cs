@@ -31,15 +31,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -53,13 +53,13 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbldogru = new System.Windows.Forms.Label();
             this.lblyanlis = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.lbldogru = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -96,25 +96,25 @@
             this.button3.Text = "C";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.Location = new System.Drawing.Point(303, 24);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 50);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "D";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.Location = new System.Drawing.Point(303, 80);
+            this.button4.Location = new System.Drawing.Point(303, 24);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "E";
+            this.button4.TabIndex = 4;
+            this.button4.Text = "D";
             this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.Location = new System.Drawing.Point(303, 80);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(50, 50);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "E";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
@@ -166,25 +166,25 @@
             this.button10.Text = "İ";
             this.button10.UseVisualStyleBackColor = true;
             // 
-            // button11
-            // 
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button11.Location = new System.Drawing.Point(191, 360);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 50);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "K";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
             // button12
             // 
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button12.Location = new System.Drawing.Point(247, 360);
+            this.button12.Location = new System.Drawing.Point(191, 360);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(50, 50);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "J";
+            this.button12.TabIndex = 11;
+            this.button12.Text = "K";
             this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button11.Location = new System.Drawing.Point(247, 360);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(50, 50);
+            this.button11.TabIndex = 12;
+            this.button11.Text = "J";
+            this.button11.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
@@ -317,13 +317,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "CEVAPLA";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(17, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(383, 29);
-            this.textBox1.TabIndex = 0;
-            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
@@ -335,6 +328,13 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "BAŞLA";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(17, 47);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(383, 29);
+            this.textBox1.TabIndex = 0;
             // 
             // groupBox3
             // 
@@ -348,23 +348,6 @@
             this.groupBox3.Size = new System.Drawing.Size(425, 97);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "DOĞRU:";
-            // 
-            // lbldogru
-            // 
-            this.lbldogru.AutoSize = true;
-            this.lbldogru.Location = new System.Drawing.Point(115, 47);
-            this.lbldogru.Name = "lbldogru";
-            this.lbldogru.Size = new System.Drawing.Size(0, 24);
-            this.lbldogru.TabIndex = 1;
             // 
             // lblyanlis
             // 
@@ -382,6 +365,23 @@
             this.label4.Size = new System.Drawing.Size(87, 24);
             this.label4.TabIndex = 2;
             this.label4.Text = "YANLIŞ:";
+            // 
+            // lbldogru
+            // 
+            this.lbldogru.AutoSize = true;
+            this.lbldogru.Location = new System.Drawing.Point(115, 47);
+            this.lbldogru.Name = "lbldogru";
+            this.lbldogru.Size = new System.Drawing.Size(0, 24);
+            this.lbldogru.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "DOĞRU:";
             // 
             // button23
             // 
@@ -412,15 +412,15 @@
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
             this.Controls.Add(this.button11);
+            this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -440,15 +440,15 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;

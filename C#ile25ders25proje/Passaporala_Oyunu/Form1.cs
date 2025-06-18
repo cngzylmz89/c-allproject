@@ -26,7 +26,27 @@ namespace Passaporala_Oyunu
             if (soruno == 1)
             {
                 richTextBox1.Text = "Türkiye karasının ismi nedir?";
-                button1.BackColor = Color.Red;
+                button1.BackColor = Color.Yellow;
+            }
+            if (soruno == 2)
+            {
+                richTextBox1.Text = "İskender yemeğinin en iyi yapıldığı ilimiz hangisidir?";
+                button2.BackColor = Color.Yellow;
+            }
+            if (soruno == 3)
+            {
+                richTextBox1.Text = "Tarihin gördüğü en büyük hükümdar hangisidir?";
+                button3.BackColor = Color.Yellow;
+            }
+            if (soruno == 4)
+            {
+                richTextBox1.Text = "Bir baltık ülkesi";
+                button4.BackColor = Color.Yellow;
+            }
+            if (soruno == 5)
+            {
+                richTextBox1.Text = "İskender yemeğinin en iyi yapıldığı ilimiz hangisidir?";
+                button2.BackColor = Color.Yellow;
             }
         }
     }
