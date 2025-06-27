@@ -12,3 +12,17 @@ C:\Users\PC\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SE
 C:\Users\PC\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMIST.B10E11B6.Up2Date
 C:\Users\PC\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.exe
 C:\Users\PC\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.pdb
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\bin\Debug\SECIMISTATISTIK.exe.config
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\bin\Debug\SECIMISTATISTIK.exe
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\bin\Debug\SECIMISTATISTIK.pdb
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\bin\Debug\EntityFramework.dll
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\bin\Debug\EntityFramework.xml
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.csproj.AssemblyReference.cache
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.frmAna.resources
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.frmGrafikler.resources
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.Properties.Resources.resources
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.csproj.GenerateResource.cache
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.csproj.CoreCompileInputs.cache
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMIST.B10E11B6.Up2Date
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.exe
+C:\Users\CENGİZ\Desktop\c#allproject\C#ile25ders25proje\SECIMISTATISTIK\obj\Debug\SECIMISTATISTIK.pdb
