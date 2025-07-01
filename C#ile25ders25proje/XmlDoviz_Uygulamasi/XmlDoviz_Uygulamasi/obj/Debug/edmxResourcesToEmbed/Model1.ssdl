@@ -5,10 +5,9 @@
       <PropertyRef Name="ISLEMID" />
     </Key>
     <Property Name="ISLEMID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="DOLAR" Type="money" />
-    <Property Name="DOLARTL" Type="money" />
-    <Property Name="EURO" Type="money" />
-    <Property Name="EUROTL" Type="money" />
+    <Property Name="DOLAR" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="EURO" Type="decimal" Precision="5" Scale="2" />
+    <Property Name="TL" Type="decimal" Precision="5" Scale="2" />
   </EntityType>
   <EntityContainer Name="dovizkurModelStoreContainer">
     <EntitySet Name="DOVIZKASA" EntityType="Self.DOVIZKASA" Schema="dbo" store:Type="Tables" />

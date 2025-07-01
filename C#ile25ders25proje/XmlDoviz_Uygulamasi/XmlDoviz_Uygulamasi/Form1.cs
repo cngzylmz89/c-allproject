@@ -89,33 +89,74 @@ namespace XmlDoviz_Uygulamasi
         
         private void btnislem1_Click(object sender, EventArgs e)
         {
-             kur =Convert.ToDouble(txtkur.Text) ;
-            miktar = Convert.ToInt32(txtmiktar.Text);
-            txttutar.Text = (miktar / kur).ToString();
-            txtkalan.Text = "";
-            islem = 0;
+            if (txtkur.Text != "" && txtmiktar.Text != "")
+            {
+                kur = Convert.ToDouble(txtkur.Text);
+                miktar = Convert.ToInt32(txtmiktar.Text);
+                txttutar.Text = (miktar * kur).ToString();
+                txtkalan.Text = "";
+                islem = 0;
+            }
+             
            
 
         }
 
         private void btnislem2_Click(object sender, EventArgs e)
         {
-            kur = Convert.ToDouble(txtkur.Text);
-            miktar = Convert.ToInt16(txtmiktar.Text);
-            txttutar.Text = (kur * miktar).ToString();
-            txtkalan.Text = (kur % miktar).ToString();
-            islem = 1;
+            if (txtkur.Text != "" && txtmiktar.Text != "")
+            {
+                kur = Convert.ToDouble(txtkur.Text);
+                miktar = Convert.ToInt16(txtmiktar.Text);
+                txttutar.Text = (kur / miktar).ToString();
+                txtkalan.Text = (kur % miktar).ToString();
+                islem = 1;
+            }
+            
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             DOVIZKASA DD = new DOVIZKASA();
-            var dolar = (from x in db.DOVIZKASA select x.DOLAR);
+            var dolar = (from x in db.DOVIZKASA where x.ISLEMID == 1 select x.DOLAR).FirstOrDefault();
+            var tl = (from x in db.DOVIZKASA where x.ISLEMID == 1 select x.TL).FirstOrDefault();
+            var euro = (from x in db.DOVIZKASA where x.ISLEMID == 1 select x.EURO).FirstOrDefault();
+            var ktrg = db.DOVIZKASA.Find(1);
             if (islem == 0 && dolaroreuro==1)
             {
-                DD.DOLAR = int.Parse(dolar + txtmiktar.Text);
+                
+                ktrg.DOLAR = decimal.Parse(txtmiktar.Text)+decimal.Parse(dolar.ToString());
+                ktrg.TL =decimal.Parse(tl.ToString()) - decimal.Parse(txttutar.Text);
+                db.SaveChanges();
+                MessageBox.Show(txtmiktar.Text + " tutarında dolar kasaya eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if(islem==1 && dolaroreuro == 2)
+            {
+                ktrg.TL = (decimal.Parse(txtmiktar.Text + tl));
+                ktrg.DOLAR = decimal.Parse(dolar.ToString()) - decimal.Parse(txttutar.Text);
+                db.SaveChanges();
+                MessageBox.Show(txtmiktar.Text + " tutarında tl kasaya eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            if(islem==0&& dolaroreuro == 3)
+            {
+                ktrg.EURO = decimal.Parse(txtmiktar.Text + euro);
+                ktrg.TL = decimal.Parse(txttutar.Text) - decimal.Parse(tl.ToString());
+                db.SaveChanges();
+                MessageBox.Show(txtmiktar.Text + " tutarında euro kasaya eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            if (islem == 1 && dolaroreuro == 4)
+            {
+                ktrg.TL = decimal.Parse(txtmiktar.Text + tl);
+                ktrg.EURO = decimal.Parse(txttutar.Text) - decimal.Parse(euro.ToString());
+                MessageBox.Show(txtmiktar.Text + " tutarında tl kasaya eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 db.SaveChanges();
             }
+            lblkasadolar.Text = dolar.ToString();
+            lblkasatl.Text = tl.ToString();
+            lblkasaeuro.Text = euro.ToString();
         }
+
+        
     }
 }

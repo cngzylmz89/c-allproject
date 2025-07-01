@@ -10,10 +10,9 @@
             <PropertyRef Name="ISLEMID" />
           </Key>
           <Property Name="ISLEMID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="DOLAR" Type="money" />
-          <Property Name="DOLARTL" Type="money" />
-          <Property Name="EURO" Type="money" />
-          <Property Name="EUROTL" Type="money" />
+          <Property Name="DOLAR" Type="decimal" Precision="5" Scale="2" />
+          <Property Name="EURO" Type="decimal" Precision="5" Scale="2" />
+          <Property Name="TL" Type="decimal" Precision="5" Scale="2" />
         </EntityType>
         <EntityContainer Name="dovizkurModelStoreContainer">
           <EntitySet Name="DOVIZKASA" EntityType="Self.DOVIZKASA" Schema="dbo" store:Type="Tables" />
@@ -27,10 +26,9 @@
             <PropertyRef Name="ISLEMID" />
           </Key>
           <Property Name="ISLEMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="DOLAR" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="DOLARTL" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="EURO" Type="Decimal" Precision="19" Scale="4" />
-          <Property Name="EUROTL" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="DOLAR" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="EURO" Type="Decimal" Precision="5" Scale="2" />
+          <Property Name="TL" Type="Decimal" Precision="5" Scale="2" />
         </EntityType>
         <EntityContainer Name="dovizkurEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="DOVIZKASA" EntityType="Self.DOVIZKASA" />
@@ -44,11 +42,10 @@
           <EntitySetMapping Name="DOVIZKASA">
             <EntityTypeMapping TypeName="dovizkurModel.DOVIZKASA">
               <MappingFragment StoreEntitySet="DOVIZKASA">
+                <ScalarProperty Name="TL" ColumnName="TL" />
                 <ScalarProperty Name="ISLEMID" ColumnName="ISLEMID" />
                 <ScalarProperty Name="DOLAR" ColumnName="DOLAR" />
-                <ScalarProperty Name="DOLARTL" ColumnName="DOLARTL" />
                 <ScalarProperty Name="EURO" ColumnName="EURO" />
-                <ScalarProperty Name="EUROTL" ColumnName="EUROTL" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -66,7 +63,7 @@
     <Options>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
-        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
         <DesignerProperty Name="UseLegacyProvider" Value="true" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />

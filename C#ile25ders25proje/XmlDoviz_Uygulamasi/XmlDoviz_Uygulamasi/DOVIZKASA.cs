@@ -16,8 +16,7 @@ namespace XmlDoviz_Uygulamasi
     {
         public int ISLEMID { get; set; }
         public Nullable<decimal> DOLAR { get; set; }
-        public Nullable<decimal> DOLARTL { get; set; }
         public Nullable<decimal> EURO { get; set; }
-        public Nullable<decimal> EUROTL { get; set; }
+        public Nullable<decimal> TL { get; set; }
     }
 }

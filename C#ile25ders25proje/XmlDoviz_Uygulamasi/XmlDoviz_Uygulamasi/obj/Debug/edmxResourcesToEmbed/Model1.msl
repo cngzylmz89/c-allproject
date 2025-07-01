@@ -4,11 +4,10 @@
     <EntitySetMapping Name="DOVIZKASA">
       <EntityTypeMapping TypeName="dovizkurModel.DOVIZKASA">
         <MappingFragment StoreEntitySet="DOVIZKASA">
+          <ScalarProperty Name="TL" ColumnName="TL" />
           <ScalarProperty Name="ISLEMID" ColumnName="ISLEMID" />
           <ScalarProperty Name="DOLAR" ColumnName="DOLAR" />
-          <ScalarProperty Name="DOLARTL" ColumnName="DOLARTL" />
           <ScalarProperty Name="EURO" ColumnName="EURO" />
-          <ScalarProperty Name="EUROTL" ColumnName="EUROTL" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

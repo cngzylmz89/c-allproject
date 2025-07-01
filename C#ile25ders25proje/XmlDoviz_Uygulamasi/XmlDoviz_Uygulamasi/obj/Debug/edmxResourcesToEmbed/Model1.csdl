@@ -5,10 +5,9 @@
       <PropertyRef Name="ISLEMID" />
     </Key>
     <Property Name="ISLEMID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="DOLAR" Type="Decimal" Precision="19" Scale="4" />
-    <Property Name="DOLARTL" Type="Decimal" Precision="19" Scale="4" />
-    <Property Name="EURO" Type="Decimal" Precision="19" Scale="4" />
-    <Property Name="EUROTL" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DOLAR" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="EURO" Type="Decimal" Precision="5" Scale="2" />
+    <Property Name="TL" Type="Decimal" Precision="5" Scale="2" />
   </EntityType>
   <EntityContainer Name="dovizkurEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="DOVIZKASA" EntityType="Self.DOVIZKASA" />

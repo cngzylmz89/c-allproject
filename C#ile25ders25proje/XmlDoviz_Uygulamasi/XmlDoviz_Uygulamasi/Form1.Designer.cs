@@ -41,6 +41,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnislem2 = new System.Windows.Forms.Button();
             this.btnislem1 = new System.Windows.Forms.Button();
             this.txtkalan = new System.Windows.Forms.TextBox();
@@ -52,10 +55,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblkasaeuro = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblkasatl = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblkasadolar = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -222,6 +230,36 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "İŞLEMLER";
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.Location = new System.Drawing.Point(308, 351);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(159, 62);
+            this.button7.TabIndex = 21;
+            this.button7.Text = "SATIŞ YAP";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button6.Location = new System.Drawing.Point(63, 351);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(159, 62);
+            this.button6.TabIndex = 20;
+            this.button6.Text = "ALIŞ YAP";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(3, 18);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // btnislem2
             // 
             this.btnislem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -328,35 +366,90 @@
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // button1
+            // groupBox2
             // 
-            this.button1.Location = new System.Drawing.Point(3, 18);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.lblkasaeuro);
+            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.lblkasatl);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.lblkasadolar);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Location = new System.Drawing.Point(462, 490);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(570, 133);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "KASADAKİ TOPLAM PARA";
             // 
-            // button6
+            // lblkasaeuro
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button6.Location = new System.Drawing.Point(63, 351);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(159, 62);
-            this.button6.TabIndex = 20;
-            this.button6.Text = "ALIŞ YAP";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.lblkasaeuro.AutoSize = true;
+            this.lblkasaeuro.BackColor = System.Drawing.Color.Transparent;
+            this.lblkasaeuro.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblkasaeuro.Location = new System.Drawing.Point(192, 101);
+            this.lblkasaeuro.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblkasaeuro.Name = "lblkasaeuro";
+            this.lblkasaeuro.Size = new System.Drawing.Size(0, 29);
+            this.lblkasaeuro.TabIndex = 6;
             // 
-            // button7
+            // label14
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Location = new System.Drawing.Point(308, 351);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(159, 62);
-            this.button7.TabIndex = 21;
-            this.button7.Text = "SATIŞ YAP";
-            this.button7.UseVisualStyleBackColor = true;
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.Location = new System.Drawing.Point(32, 101);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(93, 29);
+            this.label14.TabIndex = 5;
+            this.label14.Text = "EURO:";
+            // 
+            // lblkasatl
+            // 
+            this.lblkasatl.AutoSize = true;
+            this.lblkasatl.BackColor = System.Drawing.Color.Transparent;
+            this.lblkasatl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblkasatl.Location = new System.Drawing.Point(192, 65);
+            this.lblkasatl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblkasatl.Name = "lblkasatl";
+            this.lblkasatl.Size = new System.Drawing.Size(0, 29);
+            this.lblkasatl.TabIndex = 4;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(32, 65);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 29);
+            this.label6.TabIndex = 3;
+            this.label6.Text = "TL:";
+            // 
+            // lblkasadolar
+            // 
+            this.lblkasadolar.AutoSize = true;
+            this.lblkasadolar.BackColor = System.Drawing.Color.Transparent;
+            this.lblkasadolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblkasadolar.Location = new System.Drawing.Point(192, 31);
+            this.lblkasadolar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblkasadolar.Name = "lblkasadolar";
+            this.lblkasadolar.Size = new System.Drawing.Size(0, 29);
+            this.lblkasadolar.TabIndex = 2;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(32, 31);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(83, 29);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Dolar:";
             // 
             // Form1
             // 
@@ -364,7 +457,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::XmlDoviz_Uygulamasi.Properties.Resources._2340331_720x360;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1079, 523);
+            this.ClientSize = new System.Drawing.Size(1079, 635);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -386,6 +480,8 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -420,6 +516,13 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblkasaeuro;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblkasatl;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lblkasadolar;
+        private System.Windows.Forms.Label label3;
     }
 }
 
