@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\c#ile25ders25proje\\xmldoviz_uygulamasi\\xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|solutionrelative:xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\c#ile25ders25proje\\xmldoviz_uygulamasi\\xmldoviz_uygulamasi\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\xmldoviz_uygulamasi\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|solutionrelative:xmldoviz_uygulamasi\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|c:\\users\\ceng\u0130z\\desktop\\c#allproject\\c#ile25ders25proje\\xmldoviz_uygulamasi\\xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E93BFD6F-FE44-42B2-B88D-77A3921462DF}|XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi.csproj|solutionrelative:xmldoviz_uygulamasi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -53,8 +53,7 @@
               "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "XmlDoviz_Uygulamasi\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-07-01T12:06:24.688Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2025-07-01T12:06:24.688Z"
             },
             {
               "$type": "Document",
@@ -64,7 +63,7 @@
               "RelativeDocumentMoniker": "XmlDoviz_Uygulamasi\\Form1.cs",
               "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi\\Form1.cs",
               "RelativeToolTip": "XmlDoviz_Uygulamasi\\Form1.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAmwIAAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAcwIgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T07:32:03.232Z",
               "EditorCaption": ""
@@ -78,8 +77,7 @@
               "ToolTip": "C:\\Users\\CENG\u0130Z\\Desktop\\c#allproject\\C#ile25ders25proje\\XmlDoviz_Uygulamasi\\XmlDoviz_Uygulamasi\\Form1.cs [Design]",
               "RelativeToolTip": "XmlDoviz_Uygulamasi\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T14:25:21.4Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-28T14:25:21.4Z"
             }
           ]
         }

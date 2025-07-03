@@ -107,7 +107,7 @@ namespace XmlDoviz_Uygulamasi
             if (txtkur.Text != "" && txtmiktar.Text != "")
             {
                 kur = Convert.ToDouble(txtkur.Text);
-                miktar = Convert.ToInt16(txtmiktar.Text);
+                miktar = int.Parse(txtmiktar.Text);
                 txttutar.Text = (kur / miktar).ToString();
                 txtkalan.Text = (kur % miktar).ToString();
                 islem = 1;
@@ -126,7 +126,7 @@ namespace XmlDoviz_Uygulamasi
             {
                 
                 ktrg.DOLAR = decimal.Parse(txtmiktar.Text)+decimal.Parse(dolar.ToString());
-                ktrg.TL =decimal.Parse(tl.ToString()) - decimal.Parse(txttutar.Text);
+               // ktrg.TL = decimal.Parse(tl.ToString())-decimal.Parse(txttutar.Text.ToString());
                 db.SaveChanges();
                 MessageBox.Show(txtmiktar.Text + " tutarında dolar kasaya eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
